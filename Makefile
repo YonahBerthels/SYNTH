@@ -1,6 +1,6 @@
 CC      := clang
-CFLAGS  := -Wall -Wextra -std=c17 $(shell pkg-config --cflags sdl2)
-LDFLAGS := $(shell pkg-config --libs sdl2)
+CFLAGS  := -Wall -Wextra -std=c17 $(shell pkg-config --cflags sdl2 SDL2_TTF)
+LDFLAGS := $(shell pkg-config --libs sdl2 SDL2_TTF)
 
 TARGET  := synth
 SRCS    := $(wildcard *.c)
