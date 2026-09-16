@@ -1,2 +1,2 @@
 CompileFlags:
-  Add: [-I/opt/homebrew/include]
+  Add: [-I/opt/homebrew/include, -Isrc, -Ivendor]
